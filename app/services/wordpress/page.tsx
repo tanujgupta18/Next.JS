@@ -1,0 +1,10 @@
+export default function Wordpress() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+      <h1 className="text-4xl font-bold">WordPress Page</h1>
+      <p className="mt-4 text-lg text-gray-600">
+        This is the WordPress page of our application.
+      </p>
+    </div>
+  );
+}
